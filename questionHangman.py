@@ -4,8 +4,7 @@ wordlist=['hello', 'world', 'stars', 'class', 'night']
 
 def hangman():
     global wordlist
-    # word = random.choice(wordlist)
-    word='hello'
+    word = random.choice(wordlist)
     guessed=[]
     wrongGuess=[]
     numOfGuesses=3
